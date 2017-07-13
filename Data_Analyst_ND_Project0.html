@@ -11785,7 +11785,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Food picked</p>
+<p>Food Pinching Efficiency</p>
 
 </div>
 </div>
@@ -11795,7 +11795,8 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4>
+<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4><p>It is calculated by counting the number of peanuts picked and placed in a cup using the chopsticks.</p>
+
 </div>
 </div>
 </div>
@@ -11821,7 +11822,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
@@ -11838,10 +11839,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;/Users/dgcagigas/Documents/DataAnalyzer/P0/chopstick-effectiveness.csv&#39;</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;C:/Users/4120-ddgz/Documents/GitHub/P0-Analyze-Chopstick-Length/chopstick-effectiveness.csv&#39;</span>
 <span class="c1"># Change the path to the location where the chopstick-effectiveness.csv file is located on your computer.</span>
 <span class="c1"># If you get an error when running this block of code, be sure the chopstick-effectiveness.csv is located at the path on your computer.</span>
 
@@ -11857,7 +11858,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12261,7 +12262,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">dataFrame</span><span class="p">[</span><span class="s1">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -12275,7 +12276,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12300,7 +12301,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">meansByChopstickLength</span> <span class="o">=</span> <span class="n">dataFrame</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Chopstick.Length&#39;</span><span class="p">)[</span><span class="s1">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -12317,7 +12318,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12382,7 +12383,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Causes plots to display within the notebook rather than in a new window</span>
@@ -12713,6 +12714,16 @@ PPXGAAAAAElFTkSuQmCC
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>240mm length</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
