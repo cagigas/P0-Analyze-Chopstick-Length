@@ -4,3 +4,6 @@ You will install Python using an Anaconda distribution, which comes with IPython
 
 It is not required to submit this project or to meet specifications on it, although you are welcome to resubmit until you meet specifications if you like. The project also has no deadline, but we recommend trying to complete it in the first 7 days in the program. This will let you take full advantage of an early opportunity to experience the submission process and receive feedback immediately after you put your newest skills into practice. We also highly encourage you to reach out to your study team for help and to share your work!
 
+# Corrections
+####Q2: The correct dependent variable was given.
+You are correct the dependent variable was "food pinching efficiency", or more accurately "Food Pinching Performance" as it was defined in the abstract.
